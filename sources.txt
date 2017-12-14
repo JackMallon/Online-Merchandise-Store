@@ -1,0 +1,19 @@
+Information on the about page take from:
+https://en.wikipedia.org/wiki/Chance_the_Rapper
+
+Contact form taken from:
+https://codepen.io/dvanpel/pen/DrpIH?page=1&
+
+Background image taken from: 
+https://images.alphacoders.com/664/thumb-1920-664511.png
+
+Product images taken from:
+http://chanceraps.com/shop/
+
+Icons:
+https://www.flaticon.com/free-icon/plus_149145
+https://www.flaticon.com/free-icon/trash_149354#term=bin&page=1&position=3
+
+Login Form and Add Product Form:
+https://codepen.io/aank93/pen/qnEhw?page=1&
+

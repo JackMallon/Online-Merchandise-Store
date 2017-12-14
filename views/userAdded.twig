@@ -1,0 +1,21 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Added to mail list
+{% endblock %}
+
+{% block content %}
+    <div id="content-header">
+        <h2 style="text-align: center;">You will now receive emails about new products</h2>
+        <hr>
+    </div>
+
+    <div id="chanceInfo">
+        <p style="text-align: center;">
+            The following details have been added to our database.<br><br>
+            Name: {{ name }}<br><br>
+            Email: {{ email }}<br><br>
+            Phone Number: {{ phoneNumber }}<br><br>
+        </p>
+    </div>
+{% endblock %}

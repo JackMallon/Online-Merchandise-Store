@@ -1,0 +1,18 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Log In
+{% endblock %}
+
+{% block stylesheet %}<link rel="stylesheet" href="css/login.css">{% endblock %}
+
+{% block content %}
+<div class="navLog">
+    <form action="index.php" method="post">
+        <input type="hidden" name="action" value="processLogin">
+        <input type="text" class="username" placeholder="Username" name="username"/>
+        <input type="password" class="password" placeholder="Password" name="password"/>
+        <input type="submit" value="Sign In" class="button"/></br>
+    </form>
+</div>
+{% endblock %}

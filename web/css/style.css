@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato.ttf);
+}
+
+#copyright{
+    float: left;
+    color: white;
+}
+
+#addOrDelete{
+    width: 100%;
+    height: 440px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+#addProduct{
+    height: 200px;
+    background-color: #CB2987;
+    border-radius: 12px;
+    margin-left: 16%;
+    width: 30%;
+    float: left;
+    padding-top: 10px;
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.grow:hover{
+    transform: scale(1.02);
+}
+
+.emphasis h4{
+    text-decoration: underline;
+}
+
+#addOrDelete h3{
+    margin-bottom: 10px;
+}
+
+#addOrDelete img{
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+#deleteProduct{
+    height: 200px;
+    background-color: #CB2987;
+    border-radius: 12px;
+    width: 30%;
+    float: left;
+    margin-left: 8%;
+    padding-top: 10px;
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+#loggedInLeft{
+    float: left;
+    margin: 6px;
+    margin-left: 28px;
+    color: #CB2987;
+}
+
+#loggedInRight{
+    float: right;
+    margin: 6px;
+    margin-right: 28px;
+    color: #CB2987;
+}
+
+#clearFloat{
+    clear: both;
+}
+
+#footer{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    background-color: #ca2d86;
+    height: 42px;
+}
+
+#logIn{
+    float: right;
+    color: white;
+}
+
+#logIn a{
+    color: #FFF;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border: 0px;
+    color: white; !important;
+}
+
+td img{
+    width: 200px;
+}
+
+td{
+    text-align: center;
+}
+
+h4{
+    color: whitesmoke; !important;
+    font-family: Lato;
+}
+
+.backg{
+    background-color: #ca2d86;
+    height: 40em;
+}
+
+.backg h4{
+    color: whitesmoke; !important;
+    font-family: Lato;
+}
+
+#merch{
+     text-align: center;
+     margin-top: 50px;
+}
+
+#chanceInfo{
+    font-family: Lato;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+#content-header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#content-header hr{
+    border-top: 1px solid #CB2987;
+    width: 15%;
+}
+
+h1, h3, h2{
+    color: #CB2987;
+    font-family: Lato;
+}
+
+hr{
+    border-top: 1px solid #CB2987;
+    width: 15%;
+}
+
+.img-header{
+    text-align: center;
+}
+
+#products{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+}
+
+.img-header img{
+    height: 26em;
+}
+
+.img-header h1{
+    color: white;
+    font-family: Lato;
+}
+
+::selection {
+    background: #CB2987; /* WebKit/Blink Browsers */
+    color: white;
+}
+::-moz-selection {
+    background: #CB2987; /* Gecko Browsers */
+    color: white;
+}

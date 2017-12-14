@@ -1,0 +1,28 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Mail List
+{% endblock %}
+
+{% block content %}
+    <div id="products">
+    <table style="width:100%">
+        <tr>
+        {% for user in users %}
+            <td>
+                <h3 style="text-align: center">Name:<strong>  {{ user.name }}</strong></h3>
+                <h3 style="text-align: center">Email:<strong>  {{ user.email }}</strong></h3>
+                <h3 style="text-align: center">Phone Number:<strong>  {{ user.phoneNumber }}</strong></h3>
+                <hr>
+            </td>
+        <tr>
+        {% else %}
+            (there are no users in mailing list)
+        {% endfor %}
+        </tr>
+    </table>
+        <a href="index.php?action=clearMailingList">Clear Mailing List</a>
+    </div>
+
+
+{% endblock %}

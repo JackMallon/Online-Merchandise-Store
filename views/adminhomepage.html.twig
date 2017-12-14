@@ -1,0 +1,29 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Admin Home Page
+{% endblock %}
+
+{% block content %}
+    <div id="content-header">
+        <h2 style="text-align: center;">Add and delete products here</h2>
+        <hr>
+    </div>
+
+    <div id="addOrDelete">
+        <a href="/index.php?action=addProductPage"><div id="addProduct" class="grow">
+            <h3 style="color: white; text-align: center">Click here to<br>add a product</h3>
+            <img src="../img/plus.png" style="height: 55px;">
+        </div></a>
+
+        <a href="/index.php?action=deleteAll"><div id="deleteProduct" class="grow">
+            <h3 style="color: white; text-align: center">Click here to<br>delete all products</h3>
+            <img src="../img/trash.png" style="height: 55px;">
+        </div></a>
+
+        <a href="/index.php?action=mailList"><div id="addProduct" class="grow" style="margin-top: 40px;">
+                <h3 style="color: white; text-align: center">Click here to<br>see the mail list</h3>
+                <img src="../img/mailList.png" style="height: 55px;">
+        </div></div></a>
+    </div>
+{% endblock %}

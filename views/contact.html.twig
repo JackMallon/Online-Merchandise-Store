@@ -1,0 +1,23 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Contact Us
+{% endblock %}
+
+{% block content %}
+    <section id="contact">
+        <div class="container">
+
+            <form action="index.php" method="post">
+                <input type="hidden" name="action" value="sentMail">
+
+                <input type="text" name="first_name" placeholder="NAME" required>
+                <input  type="email" name="email" placeholder="MAIL" required>
+                <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+                <input type="submit" value="Send" class="button"/>
+
+            </form>
+
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Error
+{% endblock %}
+
+{% block content %}
+<div id="content-header">
+    <h2 style="text-align: center;">Bad Credentials</h2>
+    <hr>
+</div>
+
+<div id="chanceInfo">
+    <p style="text-align: center;">
+    There was an error with the credentials you entered. <br><br>
+
+    <a href="/index.php?action=logIn" style="color: #CB2987;">Click here</a> to try a different username or password.
+    </p>
+</div>
+{% endblock %}

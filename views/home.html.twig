@@ -1,0 +1,39 @@
+{% extends '_template.html.twig' %}
+
+{% block pageName %}
+    Chance The Rapper
+{% endblock %}
+
+{% block content %}
+    <div id="merch">
+        <h2>Welcome</h2>
+        <h3>Buy all the best official Chance<br> merchandise here at the best rates.</h3>
+        <hr>
+        <h3>Check out some of our products below</h3>
+    </div>
+
+    <div id="products">
+        <table style="width:100%">
+            <tr>
+
+            {% set counter = 0 %}
+            {% for product in products %}
+                <td>
+                    <img src="{{ product.image }}">
+                    <h3 style="text-align: center">Colour: {{ product.colour }}</h3>
+                    <h3 style="text-align: center">Price: {{ product.price }}</h3>
+                </td>
+            {% set counter = counter + 1 %}
+            {% if counter is divisible by(3) %}
+            <tr>
+            {% endif %}
+            {% else %}
+                (there are no products)
+            {% endfor %}
+
+            </tr>
+        </table>
+
+        <h1> {{ mamaName }} </h1>
+    </div>
+{% endblock %}
