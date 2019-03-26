@@ -15,9 +15,6 @@ https://www.flaticon.com/free-icon/plus_149145
 https://www.flaticon.com/free-icon/trash_149354#term=bin&page=1&position=3
 https://www.flaticon.com/free-icon/file_149345
 
-Login Form and Add Product Form:
-https://codepen.io/aank93/pen/qnEhw?page=1&
-
 JQuery and Bootstrap:
 https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css
 https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js
